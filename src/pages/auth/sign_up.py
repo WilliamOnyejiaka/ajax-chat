@@ -1,7 +1,7 @@
 import json
 import streamlit as st
 from src.components.modal import alert_modal
-from src.config import ACCESS_KEY, SECRET_KEY, COOKIE_PREFIX
+from src.config import SECRET_KEY, COOKIE_PREFIX
 from src.repos.user_repo import UserRepository
 from src.utils.cookie_manager import CookieManger
 from src.utils.password_util import hash_password
